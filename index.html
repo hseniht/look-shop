@@ -19,17 +19,21 @@
 <body>
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
+      <!-- gap -->
       <div class="col">
-        <a class="text-muted" href="#">Subscribe</a>
+        <!-- <a class="text-muted" href="#">Test</a> -->
       </div>
-      <div class="col-6 text-center">
+
+      <!-- Logo Header-->
+      <div class="col-4 col-xl-6 text-center">
         <a class="blog-header-logo text-dark" href="#">
           <h1>LOOK</h1>
         </a>
       </div>
 
-      <div class="col-3 d-flex justify-content-end align-items-center">
-        <ul class="nav justify-content-end">
+      <!-- Top right Social Navs -->
+      <div class="col-4 col-xl-3 d-flex justify-content-end align-items-center">
+        <ul class="nav justify-content-end mr-3" id="nav-top-right-social-bar">
           <li class="nav-item">
             <a class="nav-link active" href="#"><i class="fab fa-facebook-f"></i></a>
           </li>
@@ -45,19 +49,22 @@
           <li class="nav-item">
             <a class="nav-link disabled" href="#"><i class="fab fa-reddit-alien"></i></a>
           </li>
-          <li class="nav-item">
+          <!-- SearchBar-->
+          <li id="nav-searchBar" class="nav-item">
             <a class="nav-link disabled" href="#"><i class="fas fa-search"></i></a>
           </li>
-
-
         </ul>
       </div>
+
     </div>
   </header>
+
+
   <div class="container">
 
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- NAVBAR -->
+      <nav id="navbar-mainmenu"class="navbar navbar-expand-lg navbar-light" style="border-bottom:1px solid lightgrey">
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarToggler1">
