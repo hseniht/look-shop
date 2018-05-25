@@ -6,7 +6,10 @@
   }
 
   #nav-searchBar {
-    display: inline-block!important;
+    display: block!important;
+    top: 10px;
+    position: absolute;
+    right: 0px;
   }
 
  }
@@ -14,15 +17,19 @@
 
  /* Small devices (landscape phones, less than 768px)*/
 
- @media (max-width: 767.98px) {
+ @media (max-width: 991.98px) {
    #navbar-mainmenu {
          top: -75px;
    }
 
  }
- @media (width: 768px) {
-   #navbar-mainmenu {
-         top: -70px;
+
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+   #nav-searchBar {
+     display: none;
+
    }
 
  }
