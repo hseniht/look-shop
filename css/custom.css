@@ -1,33 +1,30 @@
-
 /* Medium devices (tablets, less than 992px)*/
+
 @media (max-width: 991.98px) {
   #nav-top-right-social-bar .nav-item {
     display: none;
   }
-
   #nav-searchBar {
-    display: block!important;
+    display: block !important;
     top: 10px;
     position: absolute;
     right: 0px;
   }
-
   #navbar-mainmenu {
-        top: -75px;
+    top: -75px;
   }
+}
 
- }
+/* Large devices (desktops, 992px and up) */
 
- /* Large devices (desktops, 992px and up) */
- @media (min-width: 992px) {
-   #nav-searchBar {
-     display: none;
+@media (min-width: 992px) {
+  #nav-searchBar {
+    display: none;
+  }
+}
 
-   }
+/* Medium devices (tablets, 768px and up) */
 
- }
-
- /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #nav-bottom-social-bar {
     justify-content: flex-end;
@@ -39,8 +36,8 @@
 #footer-searchBar-container:focus {
   position: absolute;
   border-color: #80bdff;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(255, 193, 7)
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(255, 193, 7)
 }
 
 #footer-searchBar {
@@ -51,33 +48,61 @@
 }
 
 #footer-searchBar:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255,255,255,.2);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, .2);
   /* background-color: lightblue; */
   border-radius: 0px;
 }
 
+/* Small devices (landscape phones, less than 768px) */
 
+@media (max-width: 767.98px) {
+  .footer-logo {
+    justify-content: center;
+    text-align: center;
+  }
+  #nav-bottom-social-bar {
+    justify-content: center;
+  }
+}
 
- /* Small devices (landscape phones, less than 768px) */
- @media (max-width: 767.98px) {
-   .footer-logo {
-     justify-content: center;
-     text-align: center;
-   }
-   #nav-bottom-social-bar {
-     justify-content: center;
-   }
-
- }
+#footer-category-list a {
+  color: white;
+  background-color: #343a40;
+}
+#footer-category-list a:hover,
+#footer-category-list a:active {
+  color: white;
+  background-color: #212529;
+}
 
 #nav-bottom-social-bar .nav-item {
   background-color: #495057;
-    border-radius: 50%;
-    margin: 2px 6px;
+  border-radius: 50%;
+  margin: 2px 6px;
+  transition: .3s;
 }
+#nav-bottom-social-bar .nav-item:hover {
+  background-color: #545b62;
+}
+
 #nav-bottom-social-bar .nav-link {
   padding: .25rem .5rem;
+  color: #cacaca;
+  transition: .3s;
 }
+#nav-bottom-social-bar .nav-link:hover {
+  color: #fff;
+}
+
 #nav-bottom-social-bar .nav-link i {
   width: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+[type="text"]#footer-searchBar::-webkit-input-placeholder {
+  /* color: orange; */
+  font-style:italic;
+  font-size: smaller;
 }
