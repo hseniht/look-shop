@@ -78,6 +78,7 @@
       width: 330px;
       height: 330px;
   }
+
  }
 
 /* Large devices (desktops, 992px and up)*/
@@ -169,3 +170,12 @@
   font-style:italic;
   font-size: smaller;
 }
+
+/*=== media queries for posts ===*/
+
+/*Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px){
+    #popular-posts {
+      zoom:0.8;
+    }
+ }
