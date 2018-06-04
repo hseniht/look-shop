@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
 
+  <!--Google Fonts
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+-->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800|Playfair+Display:400,700" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800|Playfair+Display:400,700|Source+Sans+Pro:300,400,700" rel="stylesheet">
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
@@ -26,9 +34,9 @@
       </div>
 
       <!-- Logo Header-->
-      <div class="col-4 col-xl-6 text-center">
-        <a class="blog-header-logo text-dark" href="#">
-          <h1>LOOK</h1>
+      <div class="col-4 col-xl-6 text-center p-0">
+        <a class="navbar-brand" href="#" style="margin: 12px auto">
+          <img src="images/logo_black.png"/ alt="logo" class="logo-main">
         </a>
       </div>
 
@@ -45,14 +53,14 @@
             <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#"><i class="fab fa-snapchat-ghost"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-snapchat-ghost"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#"><i class="fab fa-reddit-alien"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-reddit-alien"></i></a>
           </li>
           <!-- SearchBar-->
           <li class="nav-item">
-            <a class="nav-link disabled" href="#"><i class="fas fa-search"></i></a>
+            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
           </li>
         </ul>
       </div>
@@ -60,34 +68,34 @@
     </div>
   </header>
 
+  <!-- NAVBAR -->
   <div class="container">
-      <!-- NAVBAR -->
       <nav id="navbar-mainmenu"class="navbar navbar-expand-lg navbar-light" style="border-bottom:1px solid lightgrey">
-        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 pl-0" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarToggler1">
-          <ul class="navbar-nav mt-2 mt-lg-0">
-            <li class="nav-item active">
+          <ul class="navbar-nav font-navbar-main mt-2 mt-lg-0">
+            <li class="nav-item active px-2">
               <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-2">
               <a class="nav-link" href="#">FEATURES</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-2">
               <a class="nav-link" href="#">BLOG</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-2">
               <a class="nav-link" href="#">FASHION</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-2">
               <a class="nav-link" href="#">BEAUTY</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-2">
               <a class="nav-link" href="#">AUTHORS</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">SHOP</a>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">SHOP</a>
             </li>
           </ul>
         </div>
@@ -100,8 +108,8 @@
 
 <!--SECTION 2 -->
   <div class="container mb-5">
-    <div class="mx-auto text-center py-4">
-      <h3>SHOP</h3>
+    <div class="shop-hero-heading mx-auto text-center mb-5">
+      <h2 class="font-custom-1"><strong>SHOP</strong></h2>
     </div>
 
     <div class="row">
@@ -110,24 +118,6 @@
       </div>
 
       <div class="col-6">
-        <!-- <div class="btn-group float-right">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Sort-by
-          </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <button class="dropdown-item" type="button">Action</button>
-            <button class="dropdown-item" type="button">Another action</button>
-            <button class="dropdown-item" type="button">Something else here</button>
-          </div>
-        </div> -->
-
-        <!-- <select class="float-right">
-          <option value="default">Default sorting</option>
-          <option value="highest">Price High to Low</option>
-          <option value="lowest">Price Low to High</option>
-          <option value="ratings">Ratings</option>
-        </select> -->
-
         <div class="input-group mb-3 float-right" style="width: fit-content">
           <select class="custom-select" id="inputGroupSelect01">
             <option value="default">Default sorting</option>
@@ -145,7 +135,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product1.jpg" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -155,7 +145,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product2.jpg" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -165,7 +155,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product3.jpg" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -175,7 +165,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product4.jpg" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -185,7 +175,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product5.jpg" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -195,7 +185,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product6.jpg" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -205,7 +195,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product7.png" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -215,7 +205,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
           <img src="images/product8.jpg" alt="product 1" class="thumbnail-square-shop"/>
           <div class="p-2">
-            <p>Fashion Summer Woman Sleveless Sunflower</p>
+            <p class="font-custom-1">Fashion Summer Woman Sleveless Sunflower</p>
             <h6 class="font-theme-color">
               <s class="previous-price">$15.00</s>&nbsp;
               $12.00</h6>
@@ -260,7 +250,7 @@
             <input id="footer-searchBar" type="text" class="form-control border-0" placeholder="Search and hit enter.." aria-label="Recipient's username" aria-describedby="basic-addon2">
 
             <div class="input-group-append" style="position:absolute;top: 0;right: 0;z-index:12">
-              <button class="btn btn-link" type="button"><i class="fas fa-search"></i></button>
+              <button class="btn btn-link search-color-dark" type="button"><i class="fas fa-search"></i></button>
             </div>
           </div>
         </div>
@@ -275,21 +265,21 @@
             <li class="media">
               <img class="mr-3 thumbnail-square-blog" src="images/blog1.jpg" alt="Generic placeholder image">
               <div class="media-body">
-                <h6 class="mt-0 mb-1">Travel Destinations You Need to Visit This Summer </h6>
+                <h6 class="font-custom-1 mt-0 mb-1">Travel Destinations You Need to Visit This Summer </h6>
                 <p class="card-text"><small class="text-muted">2 YEARS AGO</small></p>
               </div>
             </li>
             <li class="media my-4">
               <img class="mr-3 thumbnail-square-blog" src="images/blog2.jpg" alt="Generic placeholder image">
               <div class="media-body">
-                <h6 class="mt-0 mb-1">Beach Outfits - What to Wear at the Beach This Summer</h6>
+                <h6 class="font-custom-1 mt-0 mb-1">Beach Outfits - What to Wear at the Beach This Summer</h6>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </li>
             <li class="media">
               <img class="mr-3 thumbnail-square-blog" src="images/blog3.jpg" alt="Generic placeholder image">
               <div class="media-body">
-                <h6 class="mt-0 mb-1">Meet The Most Fashionable Couple In New York</h6>
+                <h6 class="font-custom-1 mt-0 mb-1">Meet The Most Fashionable Couple In New York</h6>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </li>
@@ -359,9 +349,14 @@
 
     <hr class="border-white"/>
 
+    <!--Back to Top Button -->
+    <!-- <button type="button" class="btn btn-link btn-back-to-top"><i class="fas fa-long-arrow-alt-up"></i></button> -->
+
     <div class="row">
       <div class="col-md-6 footer-logo">
-        <h1 class="text-white">LOOK</h1>
+        <a class="navbar-brand mt-0 pt-0" href="#" style="margin: 12px auto">
+          <img src="images/logo_white.png"/ alt="logo">
+        </a>
       </div>
 
       <div class="col-md-6">
@@ -398,6 +393,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
